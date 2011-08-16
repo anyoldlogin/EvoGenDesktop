@@ -1,9 +1,10 @@
 package com.bitsend.evogene;
 
-import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
+import com.badlogic.gdx.backends.jogl.JoglApplication;
+
 
 public class DesktopGame {
 	public static void main(String[] args) {
-		new LwjglApplication(new Game(), "Game", 1200, 800, false);
+		new JoglApplication(new Game(), "Game", 1200, 800, false);
 	}
 }
